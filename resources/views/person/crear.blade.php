@@ -17,7 +17,7 @@
                 <span class="material-symbols-outlined">
                     format_list_bulleted
                 </span>
-                <button class=" text-white">Volver al Listado</button>
+                <a href="http://127.0.0.1:8000/api/person" class="btn btn-primary">Vover al Listado</a>
             </div>
 
         </div>
@@ -40,7 +40,6 @@
                 <input placeholder='Ingresa una contraseña' type="text" name="contrasena" class="border-2 text-xs h-8 w-60">
             </div>
             <span class="flex justify-center">
-             <!-- <input type="submit"> -->
             <button type="submit" class="bg-blue-900 w-60 text-white">Guardar</button>
             </span>
             
